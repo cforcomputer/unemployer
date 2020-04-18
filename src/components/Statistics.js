@@ -1,4 +1,5 @@
 import React from 'react';
+import RateChart from "./RateChart";
 
 const home = () => {
     return (
@@ -8,6 +9,7 @@ const home = () => {
                     <div className={"align-self-center"}>
                         <h1>Unemployment Statistics</h1>
                         <p>Current United States Unemployment Rate</p>
+                        { RateChart }
                     </div>
                 </div>
             </div>
