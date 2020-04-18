@@ -1,43 +1,54 @@
-import React from "react";
-const Chart = require("chart.js");
+import React, {useState, useEffect} from 'react';
+import {Bar} from 'react-chartjs-2';
 
-class RateChart extends React.Component {
-    // eslint-disable-next-line no-useless-constructor
-    constructor(props) {
-        super(props);
-    }
-    componentDidMount() {
-        const node = this.node;
+function App() {
+    const [activeQuery, setActiveQuery] = useState("NY")
+    const [stateData, setStateData] = useState({})
 
-        var myChart = new Chart(node, {
-            type: "bar",
-            data: {
-                labels: ["Red", "Blue", "Yellow"],
-                datasets: [
-                    {
-                        label: "# of Likes",
-                        data: [12, 19, 3],
-                        backgroundColor: [
-                            "rgba(255, 99, 132, 0.2)",
-                            "rgba(54, 162, 235, 0.2)",
-                            "rgba(255, 206, 86, 0.2)"
-                        ]
-                    }
-                ]
-            }
-        });
-    }
+    useEffect(() => {
+        async function getData() {
+            const res = await fetch(
+                'https://api.bls.gov/publicAPI/v2/timeseries/data/'
+            );
+            const data = await res.json();
+            setStateData(data);
+        }
+        getData();
+    },[activeQuery])
+}
 
-    render() {
-        return (
-            <div>
-                <canvas
-                    style={{ width: 800, height: 300 }}
-                    ref={node => (this.node = node)}
-                />
-            </div>
-        );
-    }
+const data = {
+    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    datasets: [
+        {
+            label: 'US Unemployment Rate',
+            backgroundColor: 'rgba(255,99,132,0.2)',
+            borderColor: 'rgba(255,99,132,1)',
+            borderWidth: 1,
+            hoverBackgroundColor: 'rgba(255,99,132,0.4)',
+            hoverBorderColor: 'rgba(255,99,132,1)',
+            data: [65, 59, 80, 81, 56, 55, 40]
+        }
+    ]
+};
+
+const RateChart = () => {
+    return (
+        <div>
+            <h2>Current unemployment</h2>
+            <Bar
+                data={data}
+                width={100}
+                height={50}
+                options={{
+                    responsive: true,
+                    maintainAspectRatio: true
+                }}
+            />
+
+        </div>
+        // Testing api call data format
+    );
 }
 
 export default RateChart;
