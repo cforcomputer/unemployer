@@ -16,13 +16,13 @@ class Testing extends Component {
                 }
                 //Success
                 console.log(responseJson)
-                const obj = JSON.parse(responseJson);
+                const obj = responseJson
                 // ... Code for parsing to go here?
                 for(var i = 0; i < obj.Results.series.length; i++){
                     var series = obj.Results.series[i];
                     for(var j = 0; j < series.data.length; j++){
                         console.log(series.data[i].year)
-                        console.log(series.data[i].period)
+                        console.log(series.data[i].periodName)
                     }
                 }
 
