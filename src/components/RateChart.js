@@ -1,22 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, { Component } from 'react';
 import {Bar} from 'react-chartjs-2';
 
-function App() {
-    const [activeQuery, setActiveQuery] = useState("NY")
-    const [stateData, setStateData] = useState({})
-
-    useEffect(() => {
-        async function getData() {
-            const res = await fetch(
-                'https://api.bls.gov/publicAPI/v2/timeseries/data/'
-            );
-            const data = await res.json();
-            setStateData(data);
-        }
-        getData();
-    },[activeQuery])
-}
-
+// TESTING FOR FETCHING API FROM WWW.BLS.GOV
+// Data input for the RateChart chart.js generation -> 'data'
 const data = {
     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
     datasets: [
@@ -45,9 +31,7 @@ const RateChart = () => {
                     maintainAspectRatio: true
                 }}
             />
-
         </div>
-        // Testing api call data format
     );
 }
 

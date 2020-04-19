@@ -1,10 +1,11 @@
 import React from 'react';
 import RateChart from "./RateChart";
+import Testing from "./Testing";
 
 export default class home extends React.Component {
     render() {
         return (
-            <div className={"container"} style={{'margin-top': '70px'}}>
+            <div className={"container"} style={{'marginTop': '70px'}}>
                 <div className={"row"}>
                     <div className={"col-12 titulo-span py-2"}>
                         <div className={"align-self-center"}>
@@ -14,6 +15,14 @@ export default class home extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className={"row"}>
+                    <iframe
+                        src='https://tradingeconomics.com/embed/?s=usurtot&v=202004031241v20191105&h=300&w=600&ref=/united-states/unemployment-rate'
+                        height='300' width='600' frameBorder='0' scrolling='no'>
+
+                    </iframe>
+                </div>
+                <Testing />
             </div>
         );
     }
