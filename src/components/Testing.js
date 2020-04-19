@@ -25,7 +25,7 @@ class Testing extends Component {
                         console.log(series.data[i].periodName)
                     }
                 }
-
+                alert("See console for parsed API data")
 
             })
             // If response is not in json then throw error
