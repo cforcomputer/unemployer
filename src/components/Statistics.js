@@ -1,6 +1,6 @@
 import React from 'react';
 import RateChart from "./RateChart";
-import Testing from "./Testing";
+import GetDataFromAPI from "./GetDataFromAPI";
 
 export default class home extends React.Component {
     render() {
@@ -22,7 +22,6 @@ export default class home extends React.Component {
 
                     </iframe>
                 </div>
-                <Testing />
             </div>
         );
     }
