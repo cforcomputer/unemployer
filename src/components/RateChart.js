@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
-import { Chart } from 'react-chartjs-2';
+// import 'chartjs-plugin-zoom'; // zoom functionality for charts on scroll
+import { useQuery } from "react-query";
 
 // TESTING FOR FETCHING API FROM WWW.BLS.GOV
 // Data input for the RateChart chart.js generation -> 'data'
@@ -11,7 +12,7 @@ const transformData = obj => {
     let dataYear = [];
     let dataMonth = [];
     let dataValue = [];
-    let dataLabel = []; // for storing both data year and month in one label
+    let dataXLabel = []; // for storing both data year and month in one label (x-axis)
 
     // Code for parsing to go here
     for (let i = 0; i < obj.Results.series.length; i++) {
@@ -32,14 +33,14 @@ const transformData = obj => {
     dataValue = dataValue.reverse();
     for (let i = 0; i < dataMonth.length; i++) {
         // append month and year together
-        dataLabel[i] = dataMonth[i] + " " + dataYear[i];
+        dataXLabel[i] = dataMonth[i] + " " + dataYear[i];
     }
 
     return {
         dataYear,
         dataMonth,
         dataValue,
-        dataLabel
+        dataLabel: dataXLabel
     };
 };
 
@@ -90,7 +91,7 @@ const RateChart = () => {
                                 }
                             }],
                         }
-                    ],
+                    ]
                 });
             })
             // If response is not in json then throw error
@@ -102,7 +103,7 @@ const RateChart = () => {
 
     return (
         <div>
-            <h2>Current unemployment</h2>
+            <h2>Historical Unemployment</h2>
             {data ? (
                 <Line
                     data={data}
@@ -112,6 +113,20 @@ const RateChart = () => {
                         maintainAspectRatio: true,
                         legend: {
                             display: true
+                        },
+                        plugins: {
+                            // zoom: {
+                            //     pan: {
+                            //         enabled: true,
+                            //         mode: 'x',
+                            //         speed: 20,
+                            //     },
+                            //     zoom: {
+                            //         enabled: true,
+                            //         mode: 'x',
+                            //         speed: 1000,
+                            //     }
+                            // }
                         }
                     }}
                 />

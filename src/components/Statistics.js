@@ -9,7 +9,7 @@ export default class home extends React.Component {
                     <div className={"col-12 titulo-span py-2"}>
                         <div className={"align-self-center"}>
                             <h1>Unemployment Statistics</h1>
-                            <p>Current United States Unemployment Rate</p>
+                            <p>Historical United States Unemployment Rate</p>
                             <RateChart />
                         </div>
                     </div>
