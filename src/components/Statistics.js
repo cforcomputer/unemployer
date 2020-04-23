@@ -1,6 +1,5 @@
 import React from 'react';
 import RateChart from "./RateChart";
-import GetDataFromAPI from "./GetDataFromAPI";
 
 export default class home extends React.Component {
     render() {
