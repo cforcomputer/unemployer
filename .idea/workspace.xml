@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Successfully figured out how to install plugins for react-chartjs-2">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RateChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RateChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo192.svg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1agvhW1CXXtF36m17wmxuvMkuR8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anon\Desktop\dev\unemployer\src" />
+      <recent name="C:\Users\anon\Desktop\dev\unemployer\src\components" />
+      <recent name="C:\Users\anon\Desktop\dev\unemployer\public\static" />
+      <recent name="C:\Users\anon\Desktop\dev\unemployer\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="" />
+      <created>1587170170369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587170170369</updated>
+      <workItem from="1587170172080" duration="81435000" />
+      <workItem from="1587591326144" duration="15518000" />
+    </task>
+    <task id="LOCAL-00001" summary="skeleton 2">
+      <created>1587175722738</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587175722738</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added basic page structure&#10;Added react-router functionality&#10;Starting work on charts.js">
+      <created>1587189232127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587189232127</updated>
+    </task>
+    <task id="LOCAL-00003" summary="experiment 1 (failure) for generating a chart using chart.js">
+      <created>1587192575847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587192575847</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Successfully generated a static chart&#10;TODO: Make the data values in the chart automatically updated from: https://api.bls.gov/publicAPI/v2/timeseries/data/">
+      <created>1587235029395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587235029395</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Working on parsing the API data from the jsonresponse.&#10;Currently throwing errors in Testing.js">
+      <created>1587325327387</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587325327387</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed the parsing error, parsing is now functional">
+      <created>1587329079169</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587329079169</updated>
+    </task>
+    <task id="LOCAL-00007" summary="minor adjustment for submission to uwbhacks hackathon">
+      <created>1587329403038</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587329403038</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Basic data has been implemented into the unemployment chart. &#10;&#10;Currents issues: Lists from the API are being read in reverse order. &#10;Data only displays after first interacting with the chart.">
+      <created>1587505314143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587505314143</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added Brady's hook fix so that the site will load">
+      <created>1587632232972</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587632232972</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Successfully figured out how to install plugins for react-chartjs-2">
+      <created>1587670080694</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587670080694</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="skeleton 2" />
+    <MESSAGE value="Added basic page structure&#10;Added react-router functionality&#10;Starting work on charts.js" />
+    <MESSAGE value="experiment 1 (failure) for generating a chart using chart.js" />
+    <MESSAGE value="Successfully generated a static chart&#10;TODO: Make the data values in the chart automatically updated from: https://api.bls.gov/publicAPI/v2/timeseries/data/" />
+    <MESSAGE value="Working on parsing the API data from the jsonresponse.&#10;Currently throwing errors in Testing.js" />
+    <MESSAGE value="Fixed the parsing error, parsing is now functional" />
+    <MESSAGE value="minor adjustment for submission to uwbhacks hackathon" />
+    <MESSAGE value="Basic data has been implemented into the unemployment chart. &#10;&#10;Currents issues: Lists from the API are being read in reverse order. &#10;Data only displays after first interacting with the chart." />
+    <MESSAGE value="Added Brady's hook fix so that the site will load" />
+    <MESSAGE value="Successfully figured out how to install plugins for react-chartjs-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully figured out how to install plugins for react-chartjs-2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587255233302">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1587255233302" />
+    <state width="936" height="291" key="GridCell.Tab.0.bottom" timestamp="1587631734962">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="936" height="291" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1587631734962" />
+    <state width="936" height="291" key="GridCell.Tab.0.center" timestamp="1587631734962">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="936" height="291" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1587631734962" />
+    <state width="936" height="291" key="GridCell.Tab.0.left" timestamp="1587631734961">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="936" height="291" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1587631734961" />
+    <state width="936" height="291" key="GridCell.Tab.0.right" timestamp="1587631734962">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="936" height="291" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1587631734962" />
+    <state x="28" y="188" key="SettingsEditor" timestamp="1587176806881">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="28" y="188" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587176806881" />
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587670082852">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587670082852" />
+    <state x="169" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1587254276942">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="169" y="240" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1587254276942" />
+  </component>
+</project>

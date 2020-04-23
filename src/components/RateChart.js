@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
 // import 'chartjs-plugin-zoom'; // zoom functionality for charts on scroll
-import { useQuery } from "react-query";
 
 // TESTING FOR FETCHING API FROM WWW.BLS.GOV
 // Data input for the RateChart chart.js generation -> 'data'
