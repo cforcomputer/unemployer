@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Hid API key">
+    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Added text and proper formatting for /about and /map.&#10;&#10;Removed &quot;add something here&quot; for the time being.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587689323511</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added text and proper formatting for /about and /map.&#10;&#10;Removed &quot;add something here&quot; for the time being.">
+      <created>1587691129175</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587691129175</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +226,8 @@
     <MESSAGE value="Successfully figured out how to install plugins for react-chartjs-2" />
     <MESSAGE value="Removed embedded chart from Statistics.js" />
     <MESSAGE value="Hid API key" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hid API key" />
+    <MESSAGE value="Added text and proper formatting for /about and /map.&#10;&#10;Removed &quot;add something here&quot; for the time being." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added text and proper formatting for /about and /map.&#10;&#10;Removed &quot;add something here&quot; for the time being." />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587688100244">
@@ -233,30 +238,30 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1587255233302" />
-    <state width="905" height="293" key="GridCell.Tab.0.bottom" timestamp="1587689265554">
+    <state width="905" height="293" key="GridCell.Tab.0.bottom" timestamp="1587691182700">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="293" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1587689265554" />
-    <state width="905" height="293" key="GridCell.Tab.0.center" timestamp="1587689265554">
+    <state width="905" height="293" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1587691182700" />
+    <state width="905" height="293" key="GridCell.Tab.0.center" timestamp="1587691182700">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="293" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1587689265554" />
-    <state width="905" height="293" key="GridCell.Tab.0.left" timestamp="1587689265554">
+    <state width="905" height="293" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1587691182700" />
+    <state width="905" height="293" key="GridCell.Tab.0.left" timestamp="1587691182700">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="293" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1587689265554" />
-    <state width="905" height="293" key="GridCell.Tab.0.right" timestamp="1587689265554">
+    <state width="905" height="293" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1587691182700" />
+    <state width="905" height="293" key="GridCell.Tab.0.right" timestamp="1587691182700">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="293" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1587689265554" />
+    <state width="905" height="293" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1587691182700" />
     <state x="28" y="188" key="SettingsEditor" timestamp="1587176806881">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="28" y="188" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587176806881" />
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587689325736">
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587691130651">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587689325736" />
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587691130651" />
     <state x="169" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1587254276942">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
