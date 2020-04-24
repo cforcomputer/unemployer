@@ -1,5 +1,6 @@
 import React from 'react';
 import RateChart from "./RateChart";
+import OverviewCard from "./OverviewCard";
 
 export default class home extends React.Component {
     render() {
@@ -8,16 +9,16 @@ export default class home extends React.Component {
                 <div className={"row"}>
                     <div className={"col-12 titulo-span py-2"}>
                         <div className={"align-self-center"}>
+
                             <h1>Unemployment Statistics</h1>
                             <br />
-                            <strong>2006 - Current</strong>
+                            <strong>2007 - Current</strong>
                             <RateChart />
                         </div>
                     </div>
                 </div>
-                <div className={"row"}>
-
-
+                <div className={"row mt-5"}>
+                    <OverviewCard />
                 </div>
             </div>
         );

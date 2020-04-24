@@ -10,6 +10,8 @@ const About = () => {
                         <p>
                             <b>usjobstats.com</b> is a no-nonsense tracking dashboard for United States Unemployment.
                             Obtain valuable insights entirely for free. No paying for our charts.
+                            All charts are generated from data gathered in real time from
+                            <a href={"https://www.bls.gov/"}> bls.gov</a>.
                         </p>
                         <p>
                             This site is built by a single college student.

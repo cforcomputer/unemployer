@@ -6,7 +6,7 @@ const Map = () => {
             <div className={"row"}>
                 <div className={"col-12 titulo-span py-2"}>
                     <div className={"align-self-center"}>
-                        <h1>About</h1>
+                        <h1>Map</h1>
                         <p>US unemployment map is coming soon.</p>
                     </div>
                 </div>
