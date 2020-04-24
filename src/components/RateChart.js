@@ -4,8 +4,8 @@ import { Line } from "react-chartjs-2";
 
 // TESTING FOR FETCHING API FROM WWW.BLS.GOV
 // Data input for the RateChart chart.js generation -> 'data'
-const API_URL =
-    "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000?registrationkey=983aa868d1b74941b0e0343091f33fbc&startyear=2006&endyear=2020";
+const API_KEY=`${process.env.REACT_APP_BLS_API_KEY}`;
+const API_URL = 'https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000?registrationkey=' + API_KEY + '&startyear=2007&endyear=2020';
 
 const transformData = obj => {
     let dataYear = [];
