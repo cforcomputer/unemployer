@@ -1,12 +1,15 @@
-import React, {useEffect} from "react";
+import React, {useState} from "react";
 
 const API_KEY=`${process.env.REACT_APP_BLS_API_KEY}`;
 const API_URL = "https://api.bls.gov/publicAPI/v2/timeseries/data/CES0000000001?registrationkey=" + API_KEY;
 
+// return data as an object
 const transformData = obj => {
     let dataYear = [];
     let dataMonth = [];
     let dataValue = [];
+    let calculatedAverage = [];
+    let sum;
     let decreaseTrueElseFalse; // says whether or not jobs are negative or positive
 
     // Code for parsing to go here
@@ -21,26 +24,22 @@ const transformData = obj => {
         }
     }
 
-    let calculatedAverage = [];
     // Calculate average jobs added over the last 6 months
     // 4 = Nov
     // 3 = Dec
     // 2 = Jan
     // 1 = Feb
     // 0 = March
-    for (let i = 4; i > 0; i--) {
+    for (let i = 4; i > 1; i--) {
         calculatedAverage[i] = dataValue[i - 1] - dataValue[i];
     }
-    let sum = 0;
-    for (let i = 0; i < calculatedAverage.length; i++) {
-        sum += calculatedAverage[i];
-    }
-    let average = sum / 3;
+
+    sum = calculatedAverage.reduce((a, b) => a + b, 0)
+    let average = (sum / 3) | 0; // find average & convert to int
 
     // if negative, jobs were lost
     decreaseTrueElseFalse = average < 0;
-    // Set current month
-    console.log(dataMonth[0])
+
     return {
         dataYear,
         dataMonth,
@@ -49,50 +48,58 @@ const transformData = obj => {
     };
 };
 
+
+
+let MONTH;
+let AVERAGE;
+let DECREASE;
+
+function JobsAreNegative() {
+
+    console.log(MONTH[0])
+    // states whether the last 3 months jobs were lost or gained on average
+    let lastAverageUpOrDown; // assigns
+    if (AVERAGE > 0) {
+        lastAverageUpOrDown = "added";
+    } else {
+        lastAverageUpOrDown = "lost";
+    }
+
+    if (DECREASE) {
+        return (
+            <div>
+                <span>INCREASED</span>
+                <h3>{AVERAGE} jobs</h3>
+            </div>
+        );
+    } else {
+        return (
+            <div>
+                <span>DECREASED</span>
+                <p>were lost in {MONTH[0]}, compared to the
+                    {AVERAGE} jobs {lastAverageUpOrDown} over the
+                    previous 3 months.</p>
+            </div>
+        );
+    }
+}
+
 const OverviewCard = () => {
-    let data = {};
-    useEffect(() => {
         fetch(API_URL, {
             method: "GET"
         })
             .then(response => response.json())
             .then(responseJson => {
                 console.log(responseJson)
-                data = transformData(responseJson);
-                console.log(data)
+                const {dataYear, dataMonth, average, decreaseTrueElseFalse} = transformData(responseJson);
+                // Return increased or decreased value
+                MONTH = dataMonth;
+                AVERAGE = average;
+                DECREASE = decreaseTrueElseFalse;
+            })
+            .catch(error => {
+                console.log("Error parsing GET");
             });
-    })
-
-    // Return increased or decreased value
-    function JobsAreNegative(data) {
-        // states whether the last 3 months jobs were lost or gained on average
-        let lastAverageUpOrDown; // assigns
-        if ( data.average > 0) {
-            lastAverageUpOrDown = "added";
-        } else {
-            lastAverageUpOrDown = "lost";
-        }
-
-        console.log(String(data.date))
-        if (data.decreaseTrueElseFalse) {
-            return (
-                <div>
-                    <span>INCREASED</span>
-                    <h3>{ data.average } jobs</h3>
-                </div>
-            );
-        } else {
-            return (
-                <div>
-                    <span>DECREASED</span>
-                    <p>were lost in { data.date }, compared to the
-                        { data.average } jobs { lastAverageUpOrDown } over the
-                        previous 3 months.</p>
-                </div>
-            );
-        }
-    }
-
     return (
         <div className={"container"}>
             <div className={"row"}>
@@ -101,7 +108,7 @@ const OverviewCard = () => {
                         <div className={"card-body"}>
                             <b><p className={"card-title"}>JOBS</p></b>
                             <div className={"card-text"}>
-                                { JobsAreNegative(data) }
+                                { JobsAreNegative() }
                             </div>
                         </div>
                     </div>
