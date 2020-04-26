@@ -5,7 +5,7 @@ const API_URL = "https://api.bls.gov/publicAPI/v2/timeseries/data/CES0000000001?
 
 // return data as an object
 const transformData = obj => {
-    let dataYear = [];
+    // let dataYear = [];
     let dataMonth = [];
     let dataValue = [];
     let calculatedAverage = [];
@@ -16,7 +16,7 @@ const transformData = obj => {
         const series = obj.Results.series[i];
         for (let j = 0; j < series.data.length; j++) {
             // for every nested element in JSON
-            dataYear[j] = series.data[j].year;
+            // dataYear[j] = series.data[j].year;
             dataMonth[j] = series.data[j].periodName;
             // Expand abbreviations in thousands to actual number in millions
             dataValue[j] = Number(series.data[j].value) * 1000;
@@ -51,7 +51,7 @@ function JobsAreNegative({ data }) {
 
     let { average, dataMonth, lostOrAddedCurrentMonth } = data;
     // states whether the last 3 months jobs were lost or gained on average
-    let lastAverageUpOrDown, currentJobsUpOrDown, badgeIncreaseDecrease, badgeColor; // assigns
+    let lastAverageUpOrDown, currentJobsUpOrDown, badgeIncreaseDecrease, badgeColor, upDownArrow; // assigns
 
     if (average > 0) {
         lastAverageUpOrDown = "added";
@@ -63,19 +63,21 @@ function JobsAreNegative({ data }) {
         currentJobsUpOrDown = "added";
         badgeIncreaseDecrease = "INCREASED";
         badgeColor = "badge badge-success";
+        upDownArrow = "fa fa-angle-double-up";
     } else {  // else if jobs decreased
         currentJobsUpOrDown = "lost";
         badgeIncreaseDecrease = "DECREASED";
         badgeColor = "badge badge-danger";
+        upDownArrow = "fa fa-angle-double-down";
         lostOrAddedCurrentMonth *= -1; // if negative, remove negative for sentence structure
     }
 
     return (
         <div>
-            <span className={"" + (badgeColor)}>{ badgeIncreaseDecrease }</span>
+            <span className={"" + badgeColor}><i className={"" + (upDownArrow)} /> { badgeIncreaseDecrease }</span>
             <h2>{lostOrAddedCurrentMonth.toLocaleString() } jobs </h2>
             <p>
-                were { currentJobsUpOrDown } in { dataMonth[0] }, compared to the {average.toLocaleString()} average jobs {lastAverageUpOrDown} over the previous 3 months.
+                were { currentJobsUpOrDown } in <b>{ dataMonth[0] }</b>, compared to the {average.toLocaleString()} average jobs {lastAverageUpOrDown} over the previous 3 months.
             </p>
         </div>
     );
@@ -96,7 +98,7 @@ const OverviewCard = () => {
                 setData({ dataMonth, average, lostOrAddedCurrentMonth });
             })
             .catch(error => {
-                console.log("Error parsing GET");
+                console.log("Error parsing GET" + error);
             });
     }, []);
     return (
