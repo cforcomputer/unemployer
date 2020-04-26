@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Added a bunch of small improvements. &#10;Title, navbar order, added a card at the bottom. Working on making it work.">
+    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="pushing updates (broken build) for work on laptop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/OverviewCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverviewCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +96,7 @@
       <workItem from="1587170172080" duration="81435000" />
       <workItem from="1587591326144" duration="16346000" />
       <workItem from="1587681179689" duration="4000" />
+      <workItem from="1587853316888" duration="6657000" />
     </task>
     <task id="LOCAL-00001" summary="skeleton 2">
       <created>1587175722738</created>
@@ -208,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587716668220</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="pushing updates (broken build) for work on laptop">
+      <created>1587784077224</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587784077224</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +252,8 @@
     <MESSAGE value="Added text and proper formatting for /about and /map.&#10;&#10;Removed &quot;add something here&quot; for the time being." />
     <MESSAGE value="Added google analytics tracking code for global site tracking." />
     <MESSAGE value="Added a bunch of small improvements. &#10;Title, navbar order, added a card at the bottom. Working on making it work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a bunch of small improvements. &#10;Title, navbar order, added a card at the bottom. Working on making it work." />
+    <MESSAGE value="pushing updates (broken build) for work on laptop" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushing updates (broken build) for work on laptop" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587688100244">
@@ -254,30 +264,34 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1587255233302" />
-    <state width="1835" height="194" key="GridCell.Tab.0.bottom" timestamp="1587768587715">
+    <state width="905" height="194" key="GridCell.Tab.0.bottom" timestamp="1587855876590">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1835" height="194" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1587768587715" />
-    <state width="1835" height="194" key="GridCell.Tab.0.center" timestamp="1587768587715">
+    <state width="905" height="194" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1587855876590" />
+    <state width="905" height="194" key="GridCell.Tab.0.center" timestamp="1587855876590">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1835" height="194" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1587768587715" />
-    <state width="1835" height="194" key="GridCell.Tab.0.left" timestamp="1587768587715">
+    <state width="905" height="194" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1587855876590" />
+    <state width="905" height="194" key="GridCell.Tab.0.left" timestamp="1587855876589">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1835" height="194" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1587768587715" />
-    <state width="1835" height="194" key="GridCell.Tab.0.right" timestamp="1587768587715">
+    <state width="905" height="194" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1587855876589" />
+    <state width="905" height="194" key="GridCell.Tab.0.right" timestamp="1587855876590">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1835" height="194" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1587768587715" />
-    <state x="28" y="188" key="SettingsEditor" timestamp="1587176806881">
+    <state width="905" height="194" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1587855876590" />
+    <state x="653" y="190" key="SettingsEditor" timestamp="1587854011643">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="28" y="188" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587176806881" />
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587716671017">
+    <state x="653" y="190" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587854011643" />
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587784078494">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587716671017" />
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587784078494" />
+    <state x="984" y="0" width="943" height="1087" key="dock-window-1" timestamp="1587857701196">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="984" y="0" width="943" height="1087" key="dock-window-1/62.0.1858.1080@62.0.1858.1080" timestamp="1587857701196" />
     <state x="194" y="254" key="run.anything.popup" timestamp="1587715334014">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>

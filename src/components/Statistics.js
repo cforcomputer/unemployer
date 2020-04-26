@@ -17,7 +17,7 @@ export default class home extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className={"row mt-5"}>
+                <div className={"align-self-center row mt-5"}>
                     <OverviewCard />
                 </div>
             </div>
