@@ -37,8 +37,7 @@ const transformData = obj => {
     let average = (sum / 3) | 0; // find average & convert to int
 
     // Calculate number of jobs lost or gained in current month
-    // Change to positive so rendered sentence makes sense
-    let lostOrAddedCurrentValue = ( dataValue[0] - dataValue[1] ) * -1;
+    let lostOrAddedCurrentValue = ( dataValue[0] - dataValue[1] );
 
     return {
         dataMonth,
@@ -50,33 +49,36 @@ const transformData = obj => {
 
 function JobsAreNegative({ data }) {
 
-    const { average, dataMonth, lostOrAddedCurrentMonth } = data;
+    let { average, dataMonth, lostOrAddedCurrentMonth } = data;
     // states whether the last 3 months jobs were lost or gained on average
-    let lastAverageUpOrDown; // assigns
+    let lastAverageUpOrDown, currentJobsUpOrDown, badgeIncreaseDecrease, badgeColor; // assigns
+
     if (average > 0) {
         lastAverageUpOrDown = "added";
     } else {
         lastAverageUpOrDown = "lost";
     }
 
-    if (average < 0) {
-        return (
-            <div>
-                <span>INCREASED</span>
-                <h3>{average} jobs</h3>
-            </div>
-        );
-    } else {
-        return (
-            <div>
-                <span className={"badge badge-danger"}>DECREASED</span>
-                <h2>{lostOrAddedCurrentMonth.toLocaleString() } jobs </h2>
-                <p>
-                    were lost in { dataMonth[0] }, compared to the {average.toLocaleString()} average jobs {lastAverageUpOrDown} over the previous 3 months.
-                </p>
-            </div>
-        );
+    if (lostOrAddedCurrentMonth > 0) {  // if jobs increased
+        currentJobsUpOrDown = "added";
+        badgeIncreaseDecrease = "INCREASED";
+        badgeColor = "badge badge-success";
+    } else {  // else if jobs decreased
+        currentJobsUpOrDown = "lost";
+        badgeIncreaseDecrease = "DECREASED";
+        badgeColor = "badge badge-danger";
+        lostOrAddedCurrentMonth *= -1; // if negative, remove negative for sentence structure
     }
+
+    return (
+        <div>
+            <span className={"" + (badgeColor)}>{ badgeIncreaseDecrease }</span>
+            <h2>{lostOrAddedCurrentMonth.toLocaleString() } jobs </h2>
+            <p>
+                were { currentJobsUpOrDown } in { dataMonth[0] }, compared to the {average.toLocaleString()} average jobs {lastAverageUpOrDown} over the previous 3 months.
+            </p>
+        </div>
+    );
 }
 
 const OverviewCard = () => {

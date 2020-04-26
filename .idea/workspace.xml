@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="pushing updates (broken build) for work on laptop">
+    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Fixed the jobs lost in the last 3 months button. Now makes an API call and displays the necessary information using hooks.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/OverviewCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverviewCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1587170172080" duration="81435000" />
       <workItem from="1587591326144" duration="16346000" />
       <workItem from="1587681179689" duration="4000" />
-      <workItem from="1587853316888" duration="6657000" />
+      <workItem from="1587853316888" duration="8078000" />
     </task>
     <task id="LOCAL-00001" summary="skeleton 2">
       <created>1587175722738</created>
@@ -217,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587784077224</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fixed the jobs lost in the last 3 months button. Now makes an API call and displays the necessary information using hooks.">
+      <created>1587862020039</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587862020039</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +259,8 @@
     <MESSAGE value="Added google analytics tracking code for global site tracking." />
     <MESSAGE value="Added a bunch of small improvements. &#10;Title, navbar order, added a card at the bottom. Working on making it work." />
     <MESSAGE value="pushing updates (broken build) for work on laptop" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushing updates (broken build) for work on laptop" />
+    <MESSAGE value="Fixed the jobs lost in the last 3 months button. Now makes an API call and displays the necessary information using hooks." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the jobs lost in the last 3 months button. Now makes an API call and displays the necessary information using hooks." />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587688100244">
@@ -284,10 +291,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="653" y="190" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587854011643" />
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587784078494">
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587862022767">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587784078494" />
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587862022767" />
     <state x="984" y="0" width="943" height="1087" key="dock-window-1" timestamp="1587857701196">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
