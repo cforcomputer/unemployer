@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Minor sentence structure enhancements.">
+    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Fixed major typos">
+      <change afterPath="$PROJECT_DIR$/src/components/StateEmploymentTable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistics.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +102,7 @@
       <workItem from="1587170172080" duration="81435000" />
       <workItem from="1587591326144" duration="16346000" />
       <workItem from="1587681179689" duration="4000" />
-      <workItem from="1587853316888" duration="17974000" />
+      <workItem from="1587853316888" duration="23613000" />
     </task>
     <task id="LOCAL-00001" summary="skeleton 2">
       <created>1587175722738</created>
@@ -256,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587933726600</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Fixed major typos">
+      <created>1587935464513</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1587935464513</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +307,8 @@
     <MESSAGE value="Added up or down arrow from fontawesome for the jobs increased decreased card widget. Fixed minor code warnings" />
     <MESSAGE value="Added the UnemploymentWidget.js so that people could easily see the rate of change in unemployment and the unemployment rate. Bug fixes. Added top disclaimer so that people know the current data isn't realtime." />
     <MESSAGE value="Minor sentence structure enhancements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor sentence structure enhancements." />
+    <MESSAGE value="Fixed major typos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed major typos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587688100244">
@@ -329,10 +339,14 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="653" y="190" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587865202542" />
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587933728055">
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587935465663">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587933728055" />
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587935465663" />
+    <state x="170" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587938755855">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="170" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1587938755855" />
     <state x="984" y="0" width="943" height="1087" key="dock-window-1" timestamp="1587857701196">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>

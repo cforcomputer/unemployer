@@ -28,6 +28,22 @@ export default class home extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div style={{'margin-top': '20px'}}>
+                    <table className={"table"}>
+                        <thead>
+                            <tr>
+                                <th scope={"col"}>State</th>
+                                <th scope={"col"}>Unemployed</th>
+                                <th scope={"col"}>Rate</th>
+                                <th scope={"col"}>Participation</th>
+                                <th scope={"col"}>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
             </div>
         );
     }
