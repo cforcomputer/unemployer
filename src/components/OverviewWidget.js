@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 
-const API_KEY=`${process.env.REACT_APP_BLS_API_KEY}`;
+const API_KEY = `${process.env.REACT_APP_BLS_API_KEY}`;
 const API_URL = "https://api.bls.gov/publicAPI/v2/timeseries/data/CES0000000001?registrationkey=" + API_KEY;
 
 // return data as an object
@@ -37,7 +37,7 @@ const transformData = obj => {
     let average = (sum / 3) | 0; // find average & convert to int
 
     // Calculate number of jobs lost or gained in current month
-    let lostOrAddedCurrentValue = ( dataValue[0] - dataValue[1] );
+    let lostOrAddedCurrentValue = (dataValue[0] - dataValue[1]);
 
     return {
         dataMonth,
@@ -46,10 +46,9 @@ const transformData = obj => {
     };
 };
 
+function JobsAreNegative({data}) {
 
-function JobsAreNegative({ data }) {
-
-    let { average, dataMonth, lostOrAddedCurrentMonth } = data;
+    let {average, dataMonth, lostOrAddedCurrentMonth} = data;
     // states whether the last 3 months jobs were lost or gained on average
     let lastAverageUpOrDown, currentJobsUpOrDown, badgeIncreaseDecrease, badgeColor, upDownArrow; // assigns
 
@@ -74,16 +73,17 @@ function JobsAreNegative({ data }) {
 
     return (
         <div>
-            <span className={"" + badgeColor}><i className={"" + (upDownArrow)} /> { badgeIncreaseDecrease }</span>
-            <h2>{lostOrAddedCurrentMonth.toLocaleString() } jobs </h2>
+            <span className={"" + badgeColor}><i className={"" + (upDownArrow)}/> {badgeIncreaseDecrease}</span>
+            <h2>{lostOrAddedCurrentMonth.toLocaleString()} jobs </h2>
             <p>
-                were { currentJobsUpOrDown } in <b>{ dataMonth[0] }</b>, compared to the {average.toLocaleString()} average jobs {lastAverageUpOrDown} over the previous 3 months.
+                were {currentJobsUpOrDown} in <b>{dataMonth[0]}</b>, compared to the {average.toLocaleString()} average
+                jobs {lastAverageUpOrDown} over the previous 3 months.
             </p>
         </div>
     );
 }
 
-const OverviewCard = () => {
+const OverviewWidget = () => {
     const [data, setData] = useState();
 
     useEffect(() => {
@@ -93,27 +93,23 @@ const OverviewCard = () => {
             .then(response => response.json())
             .then(responseJson => {
                 console.log(responseJson);
-                const { dataMonth, average, lostOrAddedCurrentMonth } = transformData(responseJson);
+                const {dataMonth, average, lostOrAddedCurrentMonth} = transformData(responseJson);
                 // Return increased or decreased value
-                setData({ dataMonth, average, lostOrAddedCurrentMonth });
+                setData({dataMonth, average, lostOrAddedCurrentMonth});
             })
             .catch(error => {
                 console.log("Error parsing GET" + error);
             });
     }, []);
     return (
-        <div className={"container"}>
-            <div className={"row"}>
-                <div className={"col-md-5 "}>
-                    <div className={"card"}>
-                        <div className={"card-body"}>
-                            <b>
-                                <p className={"card-title"}>JOBS</p>
-                            </b>
-                            <div className={"card-text"}>
-                                {data && <JobsAreNegative data={data} />}
-                            </div>
-                        </div>
+        <div className={"col-md-5"}>
+            <div className={"card"}>
+                <div className={"card-body"}>
+                    <b>
+                        <p className={"card-title"}>JOBS</p>
+                    </b>
+                    <div className={"card-text"}>
+                        {data && <JobsAreNegative data={data}/>}
                     </div>
                 </div>
             </div>
@@ -121,4 +117,4 @@ const OverviewCard = () => {
     );
 };
 
-export default OverviewCard;
+export default OverviewWidget;

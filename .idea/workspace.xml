@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Removed redundant code for the JobsAreNegative function.">
+    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Added up or down arrow from fontawesome for the jobs increased decreased card widget. Fixed minor code warnings">
+      <change afterPath="$PROJECT_DIR$/src/components/UnemploymentWidget.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OverviewCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverviewCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverviewCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverviewWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RateChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RateChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -60,6 +64,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anon\Desktop\dev\unemployer\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anon\Desktop\dev\unemployer\src" />
       <recent name="C:\Users\anon\Desktop\dev\unemployer\src\components" />
@@ -95,7 +102,7 @@
       <workItem from="1587170172080" duration="81435000" />
       <workItem from="1587591326144" duration="16346000" />
       <workItem from="1587681179689" duration="4000" />
-      <workItem from="1587853316888" duration="10737000" />
+      <workItem from="1587853316888" duration="15535000" />
     </task>
     <task id="LOCAL-00001" summary="skeleton 2">
       <created>1587175722738</created>
@@ -230,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587863645292</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added up or down arrow from fontawesome for the jobs increased decreased card widget. Fixed minor code warnings">
+      <created>1587866424776</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1587866424776</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +282,9 @@
     <MESSAGE value="pushing updates (broken build) for work on laptop" />
     <MESSAGE value="Fixed the jobs lost in the last 3 months button. Now makes an API call and displays the necessary information using hooks." />
     <MESSAGE value="Removed redundant code for the JobsAreNegative function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant code for the JobsAreNegative function." />
+    <MESSAGE value="Added up or down arrow from fontawesome for the jobs increased decreased card widget." />
+    <MESSAGE value="Added up or down arrow from fontawesome for the jobs increased decreased card widget. Fixed minor code warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added up or down arrow from fontawesome for the jobs increased decreased card widget. Fixed minor code warnings" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587688100244">
@@ -279,30 +295,30 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1587255233302" />
-    <state width="905" height="194" key="GridCell.Tab.0.bottom" timestamp="1587855876590">
+    <state width="1837" height="194" key="GridCell.Tab.0.bottom" timestamp="1587866368481">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="194" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1587855876590" />
-    <state width="905" height="194" key="GridCell.Tab.0.center" timestamp="1587855876590">
+    <state width="1837" height="194" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1587866368481" />
+    <state width="1837" height="194" key="GridCell.Tab.0.center" timestamp="1587866368481">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="194" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1587855876590" />
-    <state width="905" height="194" key="GridCell.Tab.0.left" timestamp="1587855876589">
+    <state width="1837" height="194" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1587866368481" />
+    <state width="1837" height="194" key="GridCell.Tab.0.left" timestamp="1587866368480">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="194" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1587855876589" />
-    <state width="905" height="194" key="GridCell.Tab.0.right" timestamp="1587855876590">
+    <state width="1837" height="194" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1587866368480" />
+    <state width="1837" height="194" key="GridCell.Tab.0.right" timestamp="1587866368481">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="194" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1587855876590" />
+    <state width="1837" height="194" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1587866368481" />
     <state x="653" y="190" key="SettingsEditor" timestamp="1587865202542">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="653" y="190" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587865202542" />
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587863647619">
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587866426739">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587863647619" />
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587866426739" />
     <state x="984" y="0" width="943" height="1087" key="dock-window-1" timestamp="1587857701196">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>

@@ -102,7 +102,7 @@ const RateChart = () => {
 
     return (
         <div>
-            <h2>Historical Unemployment</h2>
+            <h2>International Unemployment</h2>
             {data ? (
                 <Line
                     data={data}
