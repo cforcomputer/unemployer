@@ -13,7 +13,7 @@ export default class home extends React.Component {
 
                             <h1>Unemployment Dashboard</h1>
                             <p>
-                                <i>*Adjusted international data is updated ~a week after the end of each month by the US Bureau of Labor Statistics.</i>
+                                <i>*Adjusted national data is updated ~a week after the end of each month by the US Bureau of Labor Statistics.</i>
                             </p>
                             <br/>
                             <RateChart/>

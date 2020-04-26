@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Added the UnemploymentWidget.js so that people could easily see the rate of change in unemployment and the unemployment rate. Bug fixes. Added top disclaimer so that people know the current data isn't realtime.">
+    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Minor sentence structure enhancements.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <workItem from="1587170172080" duration="81435000" />
       <workItem from="1587591326144" duration="16346000" />
       <workItem from="1587681179689" duration="4000" />
-      <workItem from="1587853316888" duration="16194000" />
+      <workItem from="1587853316888" duration="17974000" />
     </task>
     <task id="LOCAL-00001" summary="skeleton 2">
       <created>1587175722738</created>
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587932987420</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Minor sentence structure enhancements.">
+      <created>1587933726600</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1587933726600</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +297,8 @@
     <MESSAGE value="Added up or down arrow from fontawesome for the jobs increased decreased card widget." />
     <MESSAGE value="Added up or down arrow from fontawesome for the jobs increased decreased card widget. Fixed minor code warnings" />
     <MESSAGE value="Added the UnemploymentWidget.js so that people could easily see the rate of change in unemployment and the unemployment rate. Bug fixes. Added top disclaimer so that people know the current data isn't realtime." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the UnemploymentWidget.js so that people could easily see the rate of change in unemployment and the unemployment rate. Bug fixes. Added top disclaimer so that people know the current data isn't realtime." />
+    <MESSAGE value="Minor sentence structure enhancements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor sentence structure enhancements." />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587688100244">
@@ -320,10 +329,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="653" y="190" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587865202542" />
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587932989143">
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587933728055">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587932989143" />
+    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1587933728055" />
     <state x="984" y="0" width="943" height="1087" key="dock-window-1" timestamp="1587857701196">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>

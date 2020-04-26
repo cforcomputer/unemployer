@@ -1,6 +1,16 @@
 import React from 'react';
 import  {NavLink} from "react-router-dom";
 
+
+// Checks to see if the current link is the active link
+const checkActive = (match, location) => {
+    //some additional logic to verify you are in the home URI
+    if(!location) return false;
+    const {pathname} = location;
+    console.log(pathname);
+    return pathname === "/";
+}
+
 const Navbar = () => {
     return (
         <div>
@@ -13,7 +23,7 @@ const Navbar = () => {
                 </button>
                 <div className={"collapse navbar-collapse"} id={"navbarCollapse"}>
                     <div className={"navbar-nav"}>
-                        <NavLink to={"/"} className={"nav-item nav-link"}>Statistics</NavLink>
+                        <NavLink to={"/"} isActive={checkActive} className={"nav-item nav-link"}>Statistics</NavLink>
                         <NavLink to={"/map"} className={"nav-item nav-link"}>Map</NavLink>
                         <NavLink to={"/about"} className={"nav-item nav-link"}>About</NavLink>
                     </div>
