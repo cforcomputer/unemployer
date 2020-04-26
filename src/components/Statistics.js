@@ -12,7 +12,9 @@ export default class home extends React.Component {
                         <div className={"align-self-center"}>
 
                             <h1>Unemployment Dashboard</h1>
-                            <p><i>*Cumulative international data is updated a week after the end of each month.</i></p>
+                            <p>
+                                <i>*Adjusted international data is updated ~a week after the end of each month by the US Bureau of Labor Statistics.</i>
+                            </p>
                             <br/>
                             <RateChart/>
                         </div>
