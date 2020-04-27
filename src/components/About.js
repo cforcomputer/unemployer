@@ -8,7 +8,7 @@ const About = () => {
                     <div className={"align-self-center"}>
                         <h1>About</h1>
                         <p>
-                            <b>usjobstats.com</b> is a no-nonsense tracking dashboard for United States Unemployment.
+                            <b>usjobstats.com</b> is a no-nonsense tracking dashboard for United States unemployment.
                             Obtain valuable insights entirely for free. No paying for our charts.
                             All charts are generated from data gathered in real time from
                             <a href={"https://www.bls.gov/"}> bls.gov</a>.
@@ -23,6 +23,7 @@ const About = () => {
                             <li>A unique trend chart for each individual state.</li>
                             <li>Useful tips and step-by-step resources for filing for unemployment in each state.</li>
                             <li>Adjust the time scale on the Statistic page's primary chart.</li>
+                            <li>Real time extrapolated weekly jobless claims tracker.</li>
                         </ul>
                         <br />
                         <h1>FAQ</h1>

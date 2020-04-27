@@ -25,6 +25,7 @@ const Navbar = () => {
                     <div className={"navbar-nav"}>
                         <NavLink to={"/"} isActive={checkActive} className={"nav-item nav-link"}>Statistics</NavLink>
                         <NavLink to={"/map"} className={"nav-item nav-link"}>Map</NavLink>
+                        <NavLink to={"/guides"} className={"nav-item nav-link"}>Guides</NavLink>
                         <NavLink to={"/about"} className={"nav-item nav-link"}>About</NavLink>
                     </div>
                     {/*<div className={"navbar-nav ml-auto"}>*/}

@@ -14,7 +14,7 @@ code {
 
 .nav-link.active {
   font-weight:bolder !important;
-  color: lightskyblue !important;
+  color: #146EB4 !important;
 }
 
 .nav-link {
@@ -22,7 +22,7 @@ code {
 }
 
 .nav-link:hover {
-  color:lightskyblue !important;
+  color:#00A8E1 !important;
 }
 
 .navbar {
