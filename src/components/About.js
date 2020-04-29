@@ -1,8 +1,14 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 
 const About = () => {
     return (
         <div className={"container"} style={{'marginTop': '70px'}}>
+            <Helmet>
+                <title>USJobstats - About</title>
+                <link rel="canonical" href="http://www.usjobstats.com/about" />
+                <meta name="description" content="Learn about USJobstats.com. Get answers to common questions. Real time and free unemployment dashboard." />
+            </Helmet>
             <div className={"row"}>
                 <div className={"col-12 titulo-span py-2"}>
                     <div className={"align-self-center"}>
