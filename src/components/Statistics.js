@@ -9,7 +9,7 @@ export default class home extends React.Component {
         return (
             <div className={"container"} style={{'marginTop': '70px'}}>
                 <Helmet>
-                    <title>USJobstats - Unemployment Tracker Dashboard</title>
+                    <title>USJobstats - Coronavirus Unemployment Tracker Dashboard</title>
                     <link rel="canonical" href="http://www.usjobstats.com/" />
                     <meta name="description" content="Learn about USJobstats.com. Get answers to common questions. Real time and free unemployment dashboard." />
                 </Helmet>

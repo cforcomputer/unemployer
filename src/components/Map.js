@@ -1,7 +1,10 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import USPageMap from "./USPageMap"
+
 
 const Map = () => {
+
     return (
         <div className={"container"} style={{'marginTop': '70px'}}>
             <Helmet>
@@ -13,7 +16,7 @@ const Map = () => {
                 <div className={"col-12 titulo-span py-2"}>
                     <div className={"align-self-center"}>
                         <h1>Map</h1>
-                        <p>US unemployment map is coming soon.</p>
+                        <USPageMap />
                     </div>
                 </div>
             </div>

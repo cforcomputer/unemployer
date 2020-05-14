@@ -54,8 +54,9 @@ function JobsAreNegative({data}) {
 
     if (average > 0) {
         lastAverageUpOrDown = "added";
-    } else {
+    } else { // average is less than 0
         lastAverageUpOrDown = "lost";
+        average = average * -1; // remove the negative sign
     }
 
     if (lostOrAddedCurrentMonth > 0) {  // if jobs increased
