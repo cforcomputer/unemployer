@@ -29,25 +29,22 @@ function EmploymentRate({data}) {
     let {dataValue, dataMonth} = data;
 
     // states whether the last 3 months jobs were lost or gained on average
-    let rateUpOrDown, badgeIncreaseDecrease, badgeColor, upDownArrow; // assigns
+    let badgeIncreaseDecrease, badgeColor, upDownArrow; // assigns
 
+    // Data value 0 is the current month
+    // Data value 1 is the previous month
+    // If current month is larger than the previous month
+    // Then ex: 13.3% - 14.7% = -1.40% which is less than 0
     if ((dataValue[0] - dataValue[1]) > 0) {
-        rateUpOrDown = "added";
+        badgeIncreaseDecrease = "INCREASED TO";
+        badgeColor = "badge badge-danger";
+        upDownArrow = "fa fa-angle-double-up";
     } else {
         badgeIncreaseDecrease = "DECREASED TO";
 
         badgeColor = "badge badge-success";
         upDownArrow = "fa fa-angle-double-down";
         // dataValue[0] *= -1; // if negative, remove negative for sentence structure
-    }
-
-    if (rateUpOrDown > 0) {  // if jobs increased
-
-
-    } else {  // else if jobs decreased
-        badgeIncreaseDecrease = "INCREASED TO";
-        badgeColor = "badge badge-danger";
-        upDownArrow = "fa fa-angle-double-up";
     }
 
     return (

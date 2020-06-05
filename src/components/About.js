@@ -21,7 +21,6 @@ const About = () => {
                         </p>
                         <p>
                             This site is built by a single college student.
-                            Please disable your adblocker to help further development of this site!
                         </p>
                         <h1>Upcoming features</h1>
                         <ul>

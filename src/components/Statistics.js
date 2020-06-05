@@ -34,7 +34,7 @@ export default class home extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div style={{'margin-top': '20px'}}>
+                <div style={{'marginTop': '20px'}}>
                     <table className={"table"}>
                         <thead>
                             <tr>

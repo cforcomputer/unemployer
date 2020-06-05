@@ -3,6 +3,19 @@ import React, {useState, useEffect} from "react";
 const API_KEY = `${process.env.REACT_APP_BLS_API_KEY}`;
 const API_URL = 'https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000?registrationkey=' + API_KEY + '&startyear=2020&endyear=2020';
 
+// API-URL fetch function for calling each individually
+// function API_URL() {
+//     let iterator = "01";
+//     let get_country_string;
+//
+//     get_country_string = 'LASST' + iterator + '0000000000003';
+//     let api_string = 'https://api.bls.gov/publicAPI/v2/timeseries/data/'+ get_country_string +
+//         '?registrationkey=' + API_KEY + '&startyear=2020&endyear=2020';
+//
+//     // return the api url for use with effect fetch
+//     return api_string;
+// }
+
 // return data as an object
 const transformData = obj => {
     // let dataYear = [];

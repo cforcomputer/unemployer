@@ -1,0 +1,257 @@
+[
+  {
+    "state": "Alabama",
+    "totalUnemployed": "77,988",
+    "unemploymentPercent": 3.5
+  },
+  {
+    "state": "Alaska",
+    "totalUnemployed": "19,426",
+    "unemploymentPercent": 5.6
+  },
+  {
+    "state": "Arizona",
+    "totalUnemployed": "196,793",
+    "unemploymentPercent": 5.5
+  },
+  {
+    "state": "Arkansas",
+    "totalUnemployed": "66,328",
+    "unemploymentPercent": 4.8
+  },
+  {
+    "state": "California",
+    "totalUnemployed": "1,020,088",
+    "unemploymentPercent": 5.3
+  },
+  {
+    "state": "Colorado",
+    "totalUnemployed": "142,578",
+    "unemploymentPercent": 4.5
+  },
+  {
+    "state": "Connecticut",
+    "totalUnemployed": "72,183",
+    "unemploymentPercent": 3.7
+  },
+  {
+    "state": "Delaware",
+    "totalUnemployed": "24,466",
+    "unemploymentPercent": 5.1
+  },
+  {
+    "state": "District of Columbia",
+    "totalUnemployed": "25,253",
+    "unemploymentPercent": 6
+  },
+  {
+    "state": "Florida",
+    "totalUnemployed": "443,651",
+    "unemploymentPercent": 4.3
+  },
+  {
+    "state": "Georgia",
+    "totalUnemployed": "216,589",
+    "unemploymentPercent": 4.2
+  },
+  {
+    "state": "Hawaii",
+    "totalUnemployed": "17,405",
+    "unemploymentPercent": 2.6
+  },
+  {
+    "state": "Idaho",
+    "totalUnemployed": "22,947",
+    "unemploymentPercent": 2.6
+  },
+  {
+    "state": "Illinois",
+    "totalUnemployed": "292,294",
+    "unemploymentPercent": 4.6
+  },
+  {
+    "state": "Indiana ",
+    "totalUnemployed": "104,801",
+    "unemploymentPercent": 3.2
+  },
+  {
+    "state": "Iowa",
+    "totalUnemployed": "63,514",
+    "unemploymentPercent": 3.7
+  },
+  {
+    "state": "Kansas",
+    "totalUnemployed": "46,516",
+    "unemploymentPercent": 3.1
+  },
+  {
+    "state": "Kentucky",
+    "totalUnemployed": "117,936",
+    "unemploymentPercent": 5.8
+  },
+  {
+    "state": "Louisiana",
+    "totalUnemployed": "149,441",
+    "unemploymentPercent": 6.9
+  },
+  {
+    "state": "Maine",
+    "totalUnemployed": "22,191",
+    "unemploymentPercent": 3.2
+  },
+  {
+    "state": "Maryland",
+    "totalUnemployed": "107,546",
+    "unemploymentPercent": 3.3
+  },
+  {
+    "state": "Massachusetts",
+    "totalUnemployed": "108,619",
+    "unemploymentPercent": 2.9
+  },
+  {
+    "state": "Michigan",
+    "totalUnemployed": "200,577",
+    "unemploymentPercent": 4.1
+  },
+  {
+    "state": "Minnesota",
+    "totalUnemployed": "95,278",
+    "unemploymentPercent": 3.1
+  },
+  {
+    "state": "Mississippi",
+    "totalUnemployed": "67,395",
+    "unemploymentPercent": 5.3
+  },
+  {
+    "state": "Missouri",
+    "totalUnemployed": "139,709",
+    "unemploymentPercent": 4.5
+  },
+  {
+    "state": "Montana",
+    "totalUnemployed": "18,685",
+    "unemploymentPercent": 3.5
+  },
+  {
+    "state": "Nebraska",
+    "totalUnemployed": "44,081",
+    "unemploymentPercent": 4.2
+  },
+  {
+    "state": "Nevada",
+    "totalUnemployed": "98,431",
+    "unemploymentPercent": 6.3
+  },
+  {
+    "state": "New Hampshire",
+    "totalUnemployed": "19,620",
+    "unemploymentPercent": 2.6
+  },
+  {
+    "state": "New Jersey",
+    "totalUnemployed": "174,263",
+    "unemploymentPercent": 3.8
+  },
+  {
+    "state": "New Mexico",
+    "totalUnemployed": "57,713",
+    "unemploymentPercent": 5.9
+  },
+  {
+    "state": "New York",
+    "totalUnemployed": "427,978",
+    "unemploymentPercent": 4.5
+  },
+  {
+    "state": "North Carolina",
+    "totalUnemployed": "217,626",
+    "unemploymentPercent": 4.4
+  },
+  {
+    "state": "North Dakota",
+    "totalUnemployed": "8,752",
+    "unemploymentPercent": 2.2
+  },
+  {
+    "state": "Ohio",
+    "totalUnemployed": "313,818",
+    "unemploymentPercent": 5.5
+  },
+  {
+    "state": "Oklahoma",
+    "totalUnemployed": "56,245",
+    "unemploymentPercent": 3.1
+  },
+  {
+    "state": "Oregon",
+    "totalUnemployed": "69,389",
+    "unemploymentPercent": 3.3
+  },
+  {
+    "state": "Pennsylvania",
+    "totalUnemployed": "394,247",
+    "unemploymentPercent": 6
+  },
+  {
+    "state": "Rhode Island",
+    "totalUnemployed": "26,334",
+    "unemploymentPercent": 4.6
+  },
+  {
+    "state": "South Carolina",
+    "totalUnemployed": "61,898",
+    "unemploymentPercent": 2.6
+  },
+  {
+    "state": "South Dakota",
+    "totalUnemployed": "15,352",
+    "unemploymentPercent": 3.3
+  },
+  {
+    "state": "Tennessee",
+    "totalUnemployed": "116,846",
+    "unemploymentPercent": 3.5
+  },
+  {
+    "state": "Texas",
+    "totalUnemployed": "664,769",
+    "unemploymentPercent": 4.7
+  },
+  {
+    "state": "Utah",
+    "totalUnemployed": "57,840",
+    "unemploymentPercent": 3.6
+  },
+  {
+    "state": "Vermont",
+    "totalUnemployed": "11,024",
+    "unemploymentPercent": 3.2
+  },
+  {
+    "state": "Virginia",
+    "totalUnemployed": "146,958",
+    "unemploymentPercent": 3.3
+  },
+  {
+    "state": "Washington",
+    "totalUnemployed": "197,569",
+    "unemploymentPercent": 5.1
+  },
+  {
+    "state": "West Virginia",
+    "totalUnemployed": "49,495",
+    "unemploymentPercent": 6.1
+  },
+  {
+    "state": "Wisconsin",
+    "totalUnemployed": "105,705",
+    "unemploymentPercent": 3.4
+  },
+  {
+    "state": "Wyoming",
+    "totalUnemployed": "11,049",
+    "unemploymentPercent": 3.7
+  }
+ ]
