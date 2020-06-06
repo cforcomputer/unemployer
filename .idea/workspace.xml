@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StateEmploymentTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StateEmploymentTable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +106,7 @@
       <workItem from="1589490760265" duration="240000" />
       <workItem from="1590454092678" duration="31000" />
       <workItem from="1591386057169" duration="301000" />
-      <workItem from="1591386391410" duration="10915000" />
+      <workItem from="1591386391410" duration="11904000" />
     </task>
     <task id="LOCAL-00001" summary="skeleton 2">
       <created>1587175722738</created>
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591392726030</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Started work on the charts widget. Decided that it would probably be better to parse it all with a python script instead of building out the functionality for making an api call for each state individually in react.&#10;&#10;Added total unemployed persons from tradingeconomics.com. A placeholder until I can figure out how to build it myself in another widget.">
+      <created>1591477761719</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591477761719</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +338,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Working on parsing the API data from the jsonresponse.&#10;Currently throwing errors in Testing.js" />
     <MESSAGE value="Fixed the parsing error, parsing is now functional" />
     <MESSAGE value="minor adjustment for submission to uwbhacks hackathon" />
     <MESSAGE value="Basic data has been implemented into the unemployment chart. &#10;&#10;Currents issues: Lists from the API are being read in reverse order. &#10;Data only displays after first interacting with the chart." />
@@ -357,7 +362,8 @@
     <MESSAGE value="Added react helmet modifications." />
     <MESSAGE value="Adding structure for USPageMap.js using chart-js-geo plugin." />
     <MESSAGE value="Fixed bug related to UnemploymentWidget.js outputting the result that said &quot;Unemployment had increased to&quot; when in fact the unemployment had &quot;Decreased To&quot;. The widget now properly displays &quot;Decreased To&quot; when unemployment decreases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug related to UnemploymentWidget.js outputting the result that said &quot;Unemployment had increased to&quot; when in fact the unemployment had &quot;Decreased To&quot;. The widget now properly displays &quot;Decreased To&quot; when unemployment decreases." />
+    <MESSAGE value="Started work on the charts widget. Decided that it would probably be better to parse it all with a python script instead of building out the functionality for making an api call for each state individually in react.&#10;&#10;Added total unemployed persons from tradingeconomics.com. A placeholder until I can figure out how to build it myself in another widget." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started work on the charts widget. Decided that it would probably be better to parse it all with a python script instead of building out the functionality for making an api call for each state individually in react.&#10;&#10;Added total unemployed persons from tradingeconomics.com. A placeholder until I can figure out how to build it myself in another widget." />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587688100244">
@@ -369,10 +375,10 @@
     </state>
     <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589492213034" />
     <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1588121936622" />
-    <state x="-1389" y="108" key="CommitChangelistDialog2" timestamp="1591392725400">
+    <state x="-1920" y="108" key="CommitChangelistDialog2" timestamp="1591477761398">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1389" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591392725400" />
+    <state x="-1920" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591477761398" />
     <state x="853" y="353" key="FileChooserDialogImpl" timestamp="1588459633157">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -405,10 +411,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="653" y="190" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587865202542" />
-    <state x="-1862" y="276" key="Vcs.Push.Dialog.v2" timestamp="1591392727270">
+    <state x="-1862" y="276" key="Vcs.Push.Dialog.v2" timestamp="1591477762880">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1862" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591392727270" />
+    <state x="-1862" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591477762880" />
     <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589483708165" />
     <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1588123663787" />
     <state x="170" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587938755855">

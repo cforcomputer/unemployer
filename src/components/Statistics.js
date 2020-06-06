@@ -37,6 +37,16 @@ export default class home extends React.Component {
                         </div>
                     </div>
                 </div>
+                <br/>
+                <div className={"col-12 titulo-span py-2"}>
+                    <div className={"align-self-center"}>
+                        <h3>Total unemployed persons</h3>
+                        <iframe
+                            src='https://tradingeconomics.com/embed/?s=unitedstauneper&v=202006051309v20191105&h=300&w=600&ref=/united-states/unemployed-persons'
+                            height='300' width='600' frameBorder='0' scrolling='no'/>
+                    </div>
+                </div>
+
                 <div style={{'marginTop': '20px'}}>
                     <table className={"table"}>
                         <thead>
@@ -49,13 +59,6 @@ export default class home extends React.Component {
                         </thead>
                         <StateEmploymentTable/>
                     </table>
-                </div>
-                <div>
-                    <br/>
-                    <h3>Total unemployed persons</h3>
-                    <iframe
-                        src='https://tradingeconomics.com/embed/?s=unitedstauneper&v=202006051309v20191105&h=300&w=600&ref=/united-states/unemployed-persons'
-                        height='300' width='600' frameBorder='0' scrolling='no'/>
                 </div>
             </div>
         );
