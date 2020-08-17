@@ -41,8 +41,19 @@ export default class home extends React.Component {
                 <div className={"col-12 titulo-span py-2"}>
                     <div className={"align-self-center"}>
                         <h3>Total unemployed persons</h3>
+                        <small><i>(In thousands)</i></small>
                         <iframe
                             src='https://tradingeconomics.com/embed/?s=unitedstauneper&v=202006051309v20191105&h=300&w=600&ref=/united-states/unemployed-persons'
+                            height='300' width='600' frameBorder='0' scrolling='no'/>
+                    </div>
+                </div>
+
+                <div className={"col-12 titulo-span py-2"}>
+                    <div className={"align-self-center"}>
+                        <h3>Weekly initial jobless claims</h3>
+                        <small><i>(In thousands)</i></small>
+                        <iframe
+                            src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=ijcusa&v=202008142300V20200716&d1=20190817&type=type=splinearea&h=300&w=600'
                             height='300' width='600' frameBorder='0' scrolling='no'/>
                     </div>
                 </div>

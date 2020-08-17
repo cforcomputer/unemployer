@@ -67,8 +67,8 @@ const About = () => {
                                     </h5>
                                 </div>
                                 <p className="mb-1">
-                                    One of the best websites currently for tracking the spread of COVID-19 is
-                                    <a href={"https://covid19stats.live/"}> covid19stats.live</a>.
+                                    The most reliable way of learning about statistics on coronavirus to google <code>Covid-19
+                                    statistics</code> into Google. The resulting page will show you live numbers.
                                 </p>
                             </div>
                         </div>

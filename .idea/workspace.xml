@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Guides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Guides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StateEmploymentTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StateEmploymentTable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +89,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -106,7 +110,11 @@
       <workItem from="1589490760265" duration="240000" />
       <workItem from="1590454092678" duration="31000" />
       <workItem from="1591386057169" duration="301000" />
-      <workItem from="1591386391410" duration="11904000" />
+      <workItem from="1591386391410" duration="14127000" />
+      <workItem from="1593465806877" duration="62000" />
+      <workItem from="1597372202987" duration="112000" />
+      <workItem from="1597372361641" duration="66000" />
+      <workItem from="1597372493585" duration="5117000" />
     </task>
     <task id="LOCAL-00001" summary="skeleton 2">
       <created>1587175722738</created>
@@ -318,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591477761719</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Slight positioning change before pushing changes live.">
+      <created>1591478489798</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591478489798</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -338,7 +353,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed the parsing error, parsing is now functional" />
     <MESSAGE value="minor adjustment for submission to uwbhacks hackathon" />
     <MESSAGE value="Basic data has been implemented into the unemployment chart. &#10;&#10;Currents issues: Lists from the API are being read in reverse order. &#10;Data only displays after first interacting with the chart." />
     <MESSAGE value="Added Brady's hook fix so that the site will load" />
@@ -363,76 +377,50 @@
     <MESSAGE value="Adding structure for USPageMap.js using chart-js-geo plugin." />
     <MESSAGE value="Fixed bug related to UnemploymentWidget.js outputting the result that said &quot;Unemployment had increased to&quot; when in fact the unemployment had &quot;Decreased To&quot;. The widget now properly displays &quot;Decreased To&quot; when unemployment decreases." />
     <MESSAGE value="Started work on the charts widget. Decided that it would probably be better to parse it all with a python script instead of building out the functionality for making an api call for each state individually in react.&#10;&#10;Added total unemployed persons from tradingeconomics.com. A placeholder until I can figure out how to build it myself in another widget." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started work on the charts widget. Decided that it would probably be better to parse it all with a python script instead of building out the functionality for making an api call for each state individually in react.&#10;&#10;Added total unemployed persons from tradingeconomics.com. A placeholder until I can figure out how to build it myself in another widget." />
+    <MESSAGE value="Slight positioning change before pushing changes live." />
+    <option name="LAST_COMMIT_MESSAGE" value="Slight positioning change before pushing changes live." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="266" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587688100244">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state x="639" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597372369495">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="266" y="339" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1587688100244" />
+    <state x="639" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597372369495" />
     <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589492213034">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589492213034" />
-    <state x="255" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1588121936622" />
-    <state x="-1920" y="108" key="CommitChangelistDialog2" timestamp="1591477761398">
+    <state x="-1920" y="108" key="CommitChangelistDialog2" timestamp="1591478489461">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1920" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591477761398" />
-    <state x="853" y="353" key="FileChooserDialogImpl" timestamp="1588459633157">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="853" y="353" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1588459633157" />
+    <state x="-1920" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591478489461" />
     <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1591395894100">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591395894100" />
     <state width="1835" height="192" key="GridCell.Tab.0.bottom/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589504353881" />
-    <state width="905" height="193" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588121641891" />
     <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1591395894100">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591395894100" />
     <state width="1835" height="192" key="GridCell.Tab.0.center/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589504353881" />
-    <state width="905" height="193" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588121641891" />
     <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1591395894099">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591395894099" />
     <state width="1835" height="192" key="GridCell.Tab.0.left/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589504353881" />
-    <state width="905" height="193" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588121641891" />
     <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1591395894100">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591395894100" />
     <state width="1835" height="192" key="GridCell.Tab.0.right/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589504353881" />
-    <state width="905" height="193" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588121641891" />
-    <state x="653" y="190" key="SettingsEditor" timestamp="1587865202542">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="653" y="190" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1587865202542" />
-    <state x="-1862" y="276" key="Vcs.Push.Dialog.v2" timestamp="1591477762880">
+    <state x="-1862" y="276" key="Vcs.Push.Dialog.v2" timestamp="1591478491147">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1862" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591477762880" />
+    <state x="-1862" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591478491147" />
     <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589483708165" />
-    <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1588123663787" />
-    <state x="170" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587938755855">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="170" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1587938755855" />
-    <state x="984" y="0" width="943" height="1087" key="dock-window-1" timestamp="1587857701196">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="984" y="0" width="943" height="1087" key="dock-window-1/62.0.1858.1080@62.0.1858.1080" timestamp="1587857701196" />
-    <state x="194" y="254" key="run.anything.popup" timestamp="1587715334014">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="194" y="254" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1587715334014" />
     <state x="169" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1589443456384">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="169" y="240" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589443456384" />
-    <state x="169" y="240" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1587714612851" />
   </component>
 </project>

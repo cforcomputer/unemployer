@@ -119,13 +119,13 @@ function EmploymentRate({data}) {
     return (
         <tr>
             {/*State name*/}
-            <th scope={"row"}>Alaska</th>
+            <th scope={"row"}>StateName</th>
             {/*Unemployed*/}
-            <td>TDOne</td>
+            <td>00,000,000</td>
             {/*Rate*/}
-            <td>TDTwo</td>
+            <td>00%</td>
             {/*Participation*/}
-            <td>TDThree</td>
+            <td>00%</td>
         </tr>
     );
 }
