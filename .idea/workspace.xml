@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="">
+    <list default="true" id="f4c3d0a8-0db2-4fc5-9e19-ecd5034c21e9" name="Default Changelist" comment="Added embedded weekly claims (placeholder until API can be figured out) &#10;Currently API only displays weekly data up to 2016 in descending order from 1965.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Guides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Guides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StateEmploymentTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StateEmploymentTable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +111,7 @@
       <workItem from="1593465806877" duration="62000" />
       <workItem from="1597372202987" duration="112000" />
       <workItem from="1597372361641" duration="66000" />
-      <workItem from="1597372493585" duration="5117000" />
+      <workItem from="1597372493585" duration="6669000" />
     </task>
     <task id="LOCAL-00001" summary="skeleton 2">
       <created>1587175722738</created>
@@ -333,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591478489798</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added embedded weekly claims (placeholder until API can be figured out) &#10;Currently API only displays weekly data up to 2016 in descending order from 1965.">
+      <created>1597696122571</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1597696122572</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +357,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="minor adjustment for submission to uwbhacks hackathon" />
     <MESSAGE value="Basic data has been implemented into the unemployment chart. &#10;&#10;Currents issues: Lists from the API are being read in reverse order. &#10;Data only displays after first interacting with the chart." />
     <MESSAGE value="Added Brady's hook fix so that the site will load" />
     <MESSAGE value="Successfully figured out how to install plugins for react-chartjs-2" />
@@ -378,7 +381,8 @@
     <MESSAGE value="Fixed bug related to UnemploymentWidget.js outputting the result that said &quot;Unemployment had increased to&quot; when in fact the unemployment had &quot;Decreased To&quot;. The widget now properly displays &quot;Decreased To&quot; when unemployment decreases." />
     <MESSAGE value="Started work on the charts widget. Decided that it would probably be better to parse it all with a python script instead of building out the functionality for making an api call for each state individually in react.&#10;&#10;Added total unemployed persons from tradingeconomics.com. A placeholder until I can figure out how to build it myself in another widget." />
     <MESSAGE value="Slight positioning change before pushing changes live." />
-    <option name="LAST_COMMIT_MESSAGE" value="Slight positioning change before pushing changes live." />
+    <MESSAGE value="Added embedded weekly claims (placeholder until API can be figured out) &#10;Currently API only displays weekly data up to 2016 in descending order from 1965." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added embedded weekly claims (placeholder until API can be figured out) &#10;Currently API only displays weekly data up to 2016 in descending order from 1965." />
   </component>
   <component name="WindowStateProjectService">
     <state x="639" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597372369495">
@@ -393,30 +397,35 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1920" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591478489461" />
-    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1591395894100">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1896" height="191" key="GridCell.Tab.0.bottom" timestamp="1597696147860">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591395894100" />
+    <state width="1896" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597696147860" />
     <state width="1835" height="192" key="GridCell.Tab.0.bottom/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589504353881" />
-    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1591395894100">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1896" height="191" key="GridCell.Tab.0.center" timestamp="1597696147860">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591395894100" />
+    <state width="1896" height="191" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597696147860" />
     <state width="1835" height="192" key="GridCell.Tab.0.center/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589504353881" />
-    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1591395894099">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1896" height="191" key="GridCell.Tab.0.left" timestamp="1597696147859">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591395894099" />
+    <state width="1896" height="191" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597696147859" />
     <state width="1835" height="192" key="GridCell.Tab.0.left/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589504353881" />
-    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1591395894100">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1896" height="191" key="GridCell.Tab.0.right" timestamp="1597696147860">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591395894100" />
+    <state width="1896" height="191" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597696147860" />
     <state width="1835" height="192" key="GridCell.Tab.0.right/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589504353881" />
-    <state x="-1862" y="276" key="Vcs.Push.Dialog.v2" timestamp="1591478491147">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state x="58" y="276" key="Vcs.Push.Dialog.v2" timestamp="1597696124528">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="-1862" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1591478491147" />
+    <state x="58" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1597696124528" />
     <state x="118" y="276" key="Vcs.Push.Dialog.v2/62.0.1858.1080/-1920.0.1858.1080@62.0.1858.1080" timestamp="1589483708165" />
     <state x="169" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1589443456384">
       <screen x="62" y="0" width="1858" height="1080" />
